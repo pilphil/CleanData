@@ -80,4 +80,4 @@
  65. "fBodyBodyGyroMagMean"     
  66. "fBodyBodyGyroMagStd"     
  67. "fBodyBodyGyroJerkMagMean" 
- 68. "fBodyBodyGyroJerkMagStd" 
+ 68. "fBodyBodyGyroJerkMagStd
