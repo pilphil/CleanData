@@ -17,7 +17,7 @@ The following sequence of steps is used to achieve the desired objective of prod
  4. Read the variable names in from features.txt file and combine that dataframe with the previous dataframe to get column names for the variables
  5. Combine the dataframes from steps 1,2,4 to produce a big dataframe with 10299 observations of 563 variables.
  6. Of all the variables, we are only interested in the mean() and std() measures of the signals. So look for column names that have mean() and std()
- 6a. *Note : We are filtering out only mean() and std(), **NOT** meanfreq() and other such measures
+ 6a. *Note : We are filtering out only mean() and std(), **NOT** meanfreq() and other such measures*
  7. Create a smaller dataframe with only the columns identified above as having mean() and std() measures. This has 10299 observations of 68 variables
  8. Next the activity labels are read into a dataframe
  9. In the next steps, variable names are simplified by replacing patterns like "-mean()-X" to "MeanX", thereby changing variable names from "tBodyAcc-mean()-X" to tBodyAccMeanX and so on.
